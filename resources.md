@@ -16,8 +16,11 @@ https://vapps.vyopta.com/client/software/vAnalyticsJavaCollector/galaxy.html
 
 ### OneReach.ai
 Docs & Getting Started: [https://support.onereach.ai](https://support.onereach.ai)
+
 CS2.0 Studio Login URL: [https://studio-staging.onereach.ai](https://studio-staging.onereach.ai)
+
 Username: teamname@webexmasters.com i.e. agentsmith@webexmasters.com
+
 Password: TheMatrix!
 
 ### Phunware
