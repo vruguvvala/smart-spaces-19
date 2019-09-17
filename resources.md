@@ -130,3 +130,9 @@ https://github.com/phunware
 ### DNA Spaces
 
 [Documentation and Q&A Space](https://eurl.io/#rJuxXjC8B)
+
+### DevNet Resources
+DevNet has a lot of additional resources...
+
+[Cisco's developer portal](https://developer.cisco.com/)
+[Cisco's Github](http://cisco.github.io/)
