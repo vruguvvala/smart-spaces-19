@@ -1,5 +1,9 @@
 # Good Stuff from our partners
 
+# Hackathon Dummy Logins (O365/ISVs/Webex):
+[link](http://bit.ly/ss2019logins)
+
+
 ## ISVs
 
 ### ACAEngine
