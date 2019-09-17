@@ -68,6 +68,12 @@ https://github.com/phunware
 
 [Demo  ios app](https://talk2spark.com/heyWebex)
 
+[Postman Collection](https://github.com/CiscoDevNet/postman-webex)
+
+[Buttons and Cards Overview](https://developer.webex.com/docs/api/guides/cards)
+
+[Webex Teams Widget](https://developer.webex.com/docs/widgets)
+
 
 ### Momentum Design System
 
