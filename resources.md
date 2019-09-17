@@ -63,21 +63,32 @@ https://github.com/phunware
 ### MindMeld
 
 [Dev Portal](https://devcenter.mindmeld.com)
+
 [Intro](https://mindmeld.github.io/mindmeld/intro/introducing_mindmeld_workbench.html)
+
 [MindMeld platform documentation](https://mindmeld.github.io/mindmeld/index.html)
+
 [Using MindMeld for a Webex Teams bot](https://dmkravch.github.io/2018-06-27-mind-meld-webex-teams)
+
 [Blueprint applications](https://mindmeld.github.io/mindmeld/blueprints/overview.html)
+
 [Building a webexbot](https://mindmeld.com/integrations/webex_teams.html)
 
 
 ### CCBU
 [Product User Guide](https://www.cisco.com/c/en/us/support/customer-collaboration/customer-journey-platform/products-user-guide-list.html)
 
-[Meraki](https://developer.cisco.com/meraki)
+### Meraki
+
+[DevNet Meraki Hub](https://developer.cisco.com/meraki)
 
 [Github](https://github.com/meraki/)
 
 [Curated list of Meraki resources](https://github.com/CiscoDevNet/awesome-merakiapis)
+
+[Postman Collection & Getting Started](https://developer.cisco.com/meraki/build/meraki-postman-collection-getting-started/)
+
+[Python Library](https://pypi.org/project/meraki/)
 
 ### DNA 
 
