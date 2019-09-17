@@ -12,7 +12,7 @@
 Provides access to:
   - collab endpoints (control, config management, face counts, touch10's / custom controls - anything that xAPI can do)
   - O365 (calendars, contacts etc - connected with webexinnovations instance)
-  - any other on-prem hardware, ISV equipment etc - hit up kim@acaprojects.com on Webex to build or deploy any new integrations
+  - any other on-prem hardware, ISV equipment etc - hit up [kim "at" acaprojects "dot" com](mailto:kim@caprojects.com) on Webex to build or deploy any new integrations
 Setup in dev mode (verbose error messages, pointers for when things go wrong). If using the API, you can subscribe to any device state over a websocket, or use REST endpoints to poll or interact with devices. To auth, login via GitHub, Google, [hackathon team logins](https://docs.google.com/spreadsheets/d/1WwHS6DnGVlCnZL8BIe9U3tpKLbFLZJ277Oiow-YUF7o/edit#gid=0) or ask for an access token for your app or service.
 
 ### Mazemap 
