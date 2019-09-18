@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@1784516622:1536869711234" name="Rest_Client_01" version="6.0.1">
+<config>
+<settings>
+<setting name="EndpointURL">https://ivrcon.ccone.net/xda/eraIntf</setting>
+<setting name="HTTPMethod">POST</setting>
+<setting name="Parameters"/>
+<setting name="ignoreCertificateValidation">true</setting>
+<setting name="requireHttpAuthentication">false</setting>
+<setting name="headers">'Content-Type':'application/xml'</setting>
+<setting name="body">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;router-call-data xmlns="http://cha.transerainc.com/gen/extrouter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" eventType="new-call" ani="{CallData.ANI}" dnis="4692900503" callId="{Data.Session.callid}" ivrDn="4692900503" timestamp="1539789273844"/&gt;</setting>
+<setting name="useProxy">false</setting>
+<setting name="connectTimeout">3000</setting>
+<setting name="readTimeout">5000</setting>
+</settings>
+<element_data>
+<data create_when="After" name="test" storable="true" type="String">{Data.Element.Rest_Client_01.response_body}</data>
+</element_data>
+</config>
+</action_element>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<action_element id="Element@10122864:1568742433155" name="Rest_Client_01" version="6.0.1">
+<config>
+<settings>
+<setting name="EndpointURL">https://ivrcon.ext.appstaging.ciscoccservice.com/xda/xdaIntf</setting>
+<setting name="HTTPMethod">POST</setting>
+<setting name="Parameters"/>
+<setting name="ignoreCertificateValidation">true</setting>
+<setting name="requireHttpAuthentication">false</setting>
+<setting name="headers">'Content-Type':'application/xml'</setting>
+<setting name="body">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;router-call-data xmlns="http://cha.transerainc.com/gen/extrouter"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  eventType="route-request"
+                  ani="9787618717"
+                  dnis="5162547460"
+                  callId="da48c5f5-dffb-430c-8a5d-cb2df812e8e7"
+                  timestamp="1354131568000"&gt;
+	&lt;call-associated-data name="cad1" value="foo"/&gt;
+	&lt;call-associated-data name="cad2" value="bar"/&gt;
+	&lt;call-associated-data name="TranseraQueue" value="Sales"/&gt;
+&lt;/router-call-data&gt;</setting>
+<setting name="useProxy">false</setting>
+<setting name="connectTimeout">3000</setting>
+<setting name="readTimeout">5000</setting>
+</settings>
+<element_data>
+<data create_when="After" name="test" storable="true" type="String">{Data.Element.Rest_Client_01.response_body}</data>
+</element_data>
+</config>
+</action_element>

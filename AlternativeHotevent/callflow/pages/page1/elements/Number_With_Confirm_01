@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<voice_element id="Element@2097429008:1539814173123" name="Number_With_Confirm_01" version="6.0.1">
+<config>
+<settings>
+<setting name="inputmode">dtmf</setting>
+<setting name="noinput_timeout">2s</setting>
+<setting name="number_max_noinput_count">1</setting>
+<setting name="number_max_nomatch_count">1</setting>
+<setting name="confirm_max_noinput_count">1</setting>
+<setting name="confirm_max_nomatch_count">1</setting>
+<setting name="max_disconfirmed_count">0</setting>
+<setting name="modal">false</setting>
+<setting name="secure_logging">false</setting>
+</settings>
+<audio>
+<audio_group barge_in="true" count="1" name="number_initial_audio_group">
+<audio_item name="audio item 1" type="static">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<static default_audio_path="true" uri="CVPEnterNumber.wav"/>
+</audio_item_config>
+</audio_item>
+</audio_group>
+<audio_group barge_in="true" count="1" name="confirm_initial_audio_group">
+<audio_item name="audio item 1" type="say_it_smart">
+<audio_item_notes/>
+<audio_item_config view_id="default">
+<say_it_smart input_format="number" output_format="digits" type="digits">{Data.Element.Number_With_Confirm_01.value}</say_it_smart>
+<recorded_audio default_audio_path="true" fileset="standard" type="wav"/>
+</audio_item_config>
+</audio_item>
+</audio_group>
+</audio>
+</config>
+</voice_element>
